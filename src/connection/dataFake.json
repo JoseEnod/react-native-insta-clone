@@ -1,0 +1,130 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "name": "Livia",
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    },
+    {
+      "id": 2,
+      "name": "Mark",
+      "avatar_url": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    },
+    {
+      "id": 3,
+      "name": "Joao_m",
+      "avatar_url": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    },
+    {
+      "id": 4,
+      "name": "Vitor",
+      "avatar_url": "https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    },
+    {
+      "id": 5,
+      "name": "Julia",
+      "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    },
+    {
+      "id": 6,
+      "name": "Katty",
+      "avatar_url": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    },
+    {
+      "id": 7,
+      "name": "Livia",
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    },
+    {
+      "id": 8,
+      "name": "Mark",
+      "avatar_url": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "timestamp": 323517835,
+      "url": "http://example.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "name": "Mark",
+      "avatar_url": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "photo_post": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "description": "I'm a Porsche with no brakes I'm invincible Yeah, I win every single game I'm so powerful I don't need batteries to play I'm so confident Yeah, I'm unstoppable today",
+      "likes": [
+        "Lucas"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Joao",
+      "avatar_url": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      "photo_post": "https://images.unsplash.com/photo-1492681290082-e932832941e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "description": "Through the mountains of life",
+      "likes": [
+        "Vitor"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Vitor",
+      "avatar_url": "https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "photo_post": "https://images.unsplash.com/photo-1496302662116-35cc4f36df92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "description": "I'm a Porsche with no brakes I'm invincible Yeah, I win every single game I'm so powerful I don't need batteries to play I'm so confident Yeah, I'm unstoppable today",
+      "likes": [
+        "Caio",
+        "Joao",
+        "Denise"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Julia",
+      "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80",
+      "photo_post": "https://images.unsplash.com/photo-1500259783852-0ca9ce8a64dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "description": "I'm a Porsche with no brakes I'm invincible Yeah, I win every single game I'm so powerful I don't need batteries to play I'm so confident Yeah, I'm unstoppable today",
+      "likes": [
+        "Caio",
+        "Joao",
+        "Denise"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Katy",
+      "avatar_url": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+      "photo_post": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+      "description": "I'm a Porsche with no brakes I'm invincible Yeah, I win every single game I'm so powerful I don't need batteries to play I'm so confident Yeah, I'm unstoppable today",
+      "likes": [
+        "Caio",
+        "Joao",
+        "Denise"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Livia",
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "photo_post": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "description": "I'm happy today",
+      "likes": [
+        "Caio",
+        "Joao",
+        "Denise"
+      ]
+    }
+  ]
+}
