@@ -7,7 +7,7 @@ import Post from './../../components/post';
 
 import data from './../../connection/dataFake.json';
 
-export default function Home() {
+export default function Home({navigation}) {
   const [postsData, setPostsData] = useState(data.posts);
   const [storiesData, setStoriesData] = useState(data.stories);
 
@@ -22,7 +22,10 @@ export default function Home() {
           if (index === 0) {
             return (
               <>
-                <Stories data={storiesData} />
+                <Stories 
+                data={storiesData} 
+                navigation={navigation}
+                />
                 <Post
                   name={item.name}
                   avatarUrl={item.avatar_url}

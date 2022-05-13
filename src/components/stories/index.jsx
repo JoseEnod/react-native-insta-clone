@@ -1,6 +1,7 @@
 import { StyleSheet, View, Image, TouchableOpacity, Text,ScrollView } from 'react-native';
 
-function Stories({ data }) {
+function Stories({ navigation, data }) {
+
   return (
     <View style={styles.stories}>
       <ScrollView 
@@ -16,6 +17,7 @@ function Stories({ data }) {
           <TouchableOpacity
             key={story.id}
             style={styles.storyButton}
+            onPress={() => navigation.navigate('Stories', {story})}
           >
             <View style={styles.rainbowCircle}>
               <Image

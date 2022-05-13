@@ -1,32 +1,10 @@
 import { useState } from 'react';
 import { View, Image, Text, StyleSheet, TouchableOpacity } from 'react-native';
-
-import likeImg from './../../images/icons/like.png';
-import likedImg from './../../images/icons/liked.png';
-import sendImg from './../../images/icons/send.png';
-import commentImg from './../../images/icons/comments.png';
-import saveMarkImg from './../../images/icons/mark.png';
-import saveMarkedImg from './../../images/icons/marked.png';
+import { Ionicons, AntDesign, Feather } from '@expo/vector-icons';
 
 function Post({ name, avatarUrl, photoPost, likes, description }) {
-  const [liked, setLiked] = useState(false);
+  const [liked, setLike] = useState(false);
   const [marked, setMarked] = useState(false);
-
-  function handleLikedButton() {
-    if (liked) {
-      setLiked(false);
-    } else {
-      setLiked(true);
-    }
-  }
-
-  function handleMarkedButton() {
-    if (marked) {
-      setMarked(false);
-    } else {
-      setMarked(true);
-    }
-  }
 
   return (
     <View style={styles.post}>
@@ -45,34 +23,27 @@ function Post({ name, avatarUrl, photoPost, likes, description }) {
       <View style={styles.interactionRow}>
         <View style={styles.buttonsInteractionRow}>
           <TouchableOpacity
-            onPress={handleLikedButton}
+            onPress={() => liked ? setLike(false) : setLike(true)}
           >
-            <Image
-              style={styles.buttonsInteraction}
-              source={liked ? likedImg : likeImg}
-            />
+            {liked ?
+              <AntDesign name="heart" size={26} color="red" style={styles.buttonsInteractionIcons} /> :
+              <AntDesign name="hearto" size={26} color="black" style={styles.buttonsInteractionIcons} />}
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image
-              style={styles.buttonsInteraction}
-              source={commentImg}
-            />
+            <Feather name="message-circle" size={27} color="black" style={styles.buttonsInteractionIcons} />
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image
-              style={styles.buttonsInteraction}
-              source={sendImg}
-            />
+            <Feather name="send" size={26} color="black" style={styles.buttonsInteractionIcons} />
           </TouchableOpacity>
         </View>
         <TouchableOpacity
-          onPress={handleMarkedButton}
-        >
-          <Image
-            style={styles.buttonsInteraction}
-            source={marked ? saveMarkedImg : saveMarkImg}
-          />
-        </TouchableOpacity>
+            onPress={() => marked ? setMarked(false) : setMarked(true)}
+          >
+            {marked ?
+              <Ionicons name="bookmark-sharp" size={27} color="black" /> :
+              <Ionicons name="bookmark-outline" size={27} color="black" />}
+          </TouchableOpacity>
+
       </View>
       <View>
         <Text style={styles.likesAndDescriptionText}>
@@ -140,6 +111,9 @@ const styles = StyleSheet.create({
     width: 32,
     marginRight: 10
   },
+  buttonsInteractionIcons: {
+    marginRight: 10
+  },
   spanText: {
     fontWeight: 'bold',
   },
@@ -147,13 +121,13 @@ const styles = StyleSheet.create({
     fontSize: 14,
     paddingLeft: 15,
   },
-  comments:{
+  comments: {
     fontSize: 14,
     paddingLeft: 15,
     marginTop: 2,
     color: '#808080',
   },
-  postTime:{
+  postTime: {
     fontSize: 10,
     paddingLeft: 15,
     color: '#909090',

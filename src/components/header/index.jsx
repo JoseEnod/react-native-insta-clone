@@ -1,9 +1,7 @@
 import { StyleSheet, View, Image, TouchableOpacity } from 'react-native';
+import { AntDesign, Ionicons } from '@expo/vector-icons';
 
 import logoImg from './../../images/logo.png';
-import likeImg from './../../images/icons/like.png';
-import messagesImg from './../../images/icons/message.png';
-import addImg from './../../images/icons/add.png';
 
 function Header(props) {
   return (
@@ -14,22 +12,13 @@ function Header(props) {
       />
       <View style={styles.headerButtons}>
         <TouchableOpacity>
-          <Image
-            style={styles.likeButton}
-            source={addImg}
-          />
+          <Ionicons name="add-circle-outline" size={24} color="black"  style={styles.marginButton}/>
         </TouchableOpacity>
         <TouchableOpacity>
-          <Image
-            style={styles.likeButton}
-            source={likeImg}
-          />
+        <AntDesign name="hearto" size={22} color="black" style={styles.marginButton}/>
         </TouchableOpacity>
         <TouchableOpacity>
-          <Image
-            style={styles.sendButton}
-            source={messagesImg}
-          />
+        <AntDesign name="message1" size={20} color="black" />
         </TouchableOpacity>
       </View>
 
@@ -56,15 +45,10 @@ const styles = StyleSheet.create({
   headerButtons: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'center',
   },
-  likeButton: {
-    height: 28,
-    width: 28,
+  marginButton: {
     marginRight: 13,
-  },
-  sendButton: {
-    height: 28,
-    width: 28
   },
 });
 

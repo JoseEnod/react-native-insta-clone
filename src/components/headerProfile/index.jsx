@@ -1,8 +1,6 @@
 import { StyleSheet, View, Image, TouchableOpacity, Text } from 'react-native';
 
-import { Entypo, AntDesign } from '@expo/vector-icons';
-
-import addImg from './../../images/icons/add.png';
+import { Entypo, AntDesign, Ionicons } from '@expo/vector-icons';
 
 function HeaderProfile(props) {
   return (
@@ -13,11 +11,8 @@ function HeaderProfile(props) {
       <AntDesign name="down" style={styles.downIcon} size={16} color="black" />
       </View>
       <View style={styles.headerButtons}>
-        <TouchableOpacity>
-          <Image
-            style={styles.likeButton}
-            source={addImg}
-          />
+      <TouchableOpacity>
+          <Ionicons name="add-circle-outline" size={24} color="black"  style={styles.likeButton}/>
         </TouchableOpacity>
         <TouchableOpacity>
         <Entypo name="menu" size={30} color="black" />
@@ -49,8 +44,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   likeButton: {
-    height: 28,
-    width: 28,
     marginRight: 13,
   },
   sendButton: {
