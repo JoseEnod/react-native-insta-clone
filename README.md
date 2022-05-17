@@ -1,7 +1,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-APK - download">Downloads</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Baixar e iniciar projeto">Iniciar projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -25,9 +25,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Este é um clone do app do instagram desenvolvido do 0 por mim para praticar minhas habilidades com react-native.
 
 
-## 📲 Iniciar projeto
+## 📲 Baixar e iniciar projeto
 
-Para iniciar o projeto em seu computador faça um clone desse repositorio, e use um desses comandos para baixar as dependências:
+Primeiro clone o repositorio usando:
+
+```
+git clone https://github.com/JoseEnod/react-native-insta-clone.git
+```
+
+Use um desses comandos para baixar as dependências do projeto:
 
 ```
 yarn install
